@@ -152,15 +152,6 @@ class DreamActivity : FilePicker() {
         builder.show()
     }
 
-    private fun getTomorrow12Clock(): Calendar {
-        return Calendar.getInstance().also {
-            it.add(Calendar.DAY_OF_MONTH, 1)
-            it.set(Calendar.HOUR_OF_DAY, 12)
-            it.set(Calendar.MINUTE, 0)
-            it.set(Calendar.SECOND, 0)
-        }
-    }
-
     private fun findText(wantedDate: Calendar): String {
         // get text file from Google Drive
         val fileText: List<String> = readDiary("traumtagebuch", this)
