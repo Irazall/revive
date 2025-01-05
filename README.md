@@ -37,5 +37,5 @@ Prefixes are:
 
 # License
 
-Revive © 2019 by Chris-Gabriel Islam is licensed under CC BY-NC-SA 4.0 
+Revive © 2019 by Chris-Gabriel Islam is licensed under CC0 1.0 Universal.
 
